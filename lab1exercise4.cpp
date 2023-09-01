@@ -1,4 +1,4 @@
-/*4A: Write an inline function Min(int,int) to calculate minimum between 
+/*4: Write an inline function Min(int,int) to calculate minimum between 
 two numbers.*/
 
 
