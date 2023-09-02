@@ -31,15 +31,15 @@ int main() {
     double volume;
 
     // Calculate the volume of a cube
-    volume = Volume(5.0); // Example: Cube with side length 5
+    volume =  // Example: Cube with side length 5
     std::cout << "Volume of the cube: " << volume << std::endl;
 
     // Calculate the volume of a cylinder
-    volume = Volume(2.0, 4.0); // Example: Cylinder with radius 2 and height 4
+    volume =  // Example: Cylinder with radius 2 and height 4
     std::cout << "Volume of the cylinder: " << volume << std::endl;
 
     // Calculate the volume of a cuboid
-    volume = Volume(3.0, 4.0, 5.0); // Example: Cuboid with width 3, length 4, and height 5
+    volume =  // Example: Cuboid with width 3, length 4, and height 5
     std::cout << "Volume of the cuboid: " << volume << std::endl;
 
     return 0;
