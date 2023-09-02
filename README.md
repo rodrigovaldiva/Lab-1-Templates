@@ -101,3 +101,32 @@ Enter a positive integer: 1
 ```
 Prime numbers are defined for positive integers only.
 ```
+
+## Exercise 4: Minimum Number Calculator
+
+### Description
+This C++ exercise focuses on writing an inline function called `Min` to calculate the minimum between two numbers. The program allows the user to input two integers and then uses the `Min` function to determine and display the minimum of the two values.
+
+
+### Sample Input and Output
+#### Sample Input:
+```
+Enter the first number: 8
+Enter the second number: 4
+```
+
+#### Sample Output:
+```
+The minimum between 8 and 4 is 4
+```
+
+#### Sample Input:
+```
+Enter the first number: -5
+Enter the second number: 2
+```
+
+#### Sample Output:
+```
+The minimum between -5 and 2 is -5
+```
