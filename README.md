@@ -1,4 +1,4 @@
-# Lab-1-Templates
+# Lab-1-Template
 Template Repository for OOPNYUAD Lab 1 for Students to Fill Code
 ## Exercise 1: Dynamic Array Resizing Exercise
 
