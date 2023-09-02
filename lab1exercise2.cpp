@@ -1,6 +1,6 @@
 #include <iostream>
 
-/*3A: Write a recursive function to compute factorial of a number. 
+/*Write a recursive function to compute factorial of a number. 
 Factorial of a number n is defined as: 
 
     fact(n) = 1                 , n = 1 || n = 0
