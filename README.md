@@ -1,11 +1,11 @@
 # Lab-1-Templates
 Template Repository for OOPNYUAD Lab 1 for Students to Fill Code
-# Exercise 1: Dynamic Array Resizing Exercise
+## Exercise 1: Dynamic Array Resizing Exercise
 
-## Aim
+### Aim
 The aim of this exercise is to create a C++ program that allows users to dynamically resize an array to a bigger size. This involves creating a temporary array with a larger size, copying the values of the elements from the old array to the new array, and adding new values into the extension cells. The program demonstrates how to work with dynamic arrays and user input.
 
-## Sample Input and Output
+### Sample Input and Output
 
 Here is a sample interaction with the program, including input and output:
 
@@ -27,7 +27,7 @@ Element 3: 40
 Element 4: 50
 ```
 
-## Explanation
+### Explanation
 
 1. The program starts by asking the user for the initial size of the array. In this example, the user enters 3.
 
@@ -41,5 +41,3 @@ Element 4: 50
 
 This exercise helps users understand dynamic memory allocation and resizing arrays based on user input, which is a fundamental concept in C++ programming.
 ```
-
-You can copy and paste this Markdown content into a README.md file for your exercise documentation.
