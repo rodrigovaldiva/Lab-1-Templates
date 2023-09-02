@@ -7,7 +7,7 @@ The aim of this exercise is to create a C++ program that allows users to dynamic
 
 ### Sample Input and Output
 
-Here is a sample interaction with the program, including input and output:
+Below is a sample interaction with the program, including input and output:
 
 ```
 Enter the initial size of the array: 3
@@ -40,4 +40,25 @@ Element 4: 50
 5. Finally, the program prints the resized array, showing the original and newly added elements, to confirm that the resizing operation was successful.
 
 This exercise helps users understand dynamic memory allocation and resizing arrays based on user input, which is a fundamental concept in C++ programming.
+
+## Exercise 2: Factorial Calculator
+
+### Description
+This C++ program calculates the factorial of a non-negative integer using a recursive function. The program defines the factorial of a number `n` according to the following rules:
+
+- `fact(n) = 1` when `n` is 0 or 1.
+- `fact(n) = n * fact(n - 1)` when `n` is greater than 1.
+
+The user is prompted to enter a non-negative integer, and the program calculates and displays the factorial of the entered number.
+
+
+### Sample Input and Output
+#### Sample Input:
+```
+Enter a non-negative integer: 5
+```
+
+#### Sample Output:
+```
+Factorial of 5 is 120
 ```
