@@ -130,3 +130,96 @@ Enter the second number: 2
 ```
 The minimum between -5 and 2 is -5
 ```
+## Exercise 5: Volume Calculator
+
+### Description
+This C++ program implements an overloaded function called `Volume` to calculate the volume of three different geometric shapes: a cube, a cylinder, and a cuboid. The program provides functions for each shape, allowing the user to input the necessary parameters (side length, radius, height, width, length, and height) to calculate the volume. The formulas for volume calculation are as follows:
+
+- **Volume of Cube:** `side ^ 3`
+- **Volume of Cylinder:** `π * radius^2 * height`
+- **Volume of Cuboid:** `width * length * height`
+
+The program utilizes the value of π (pi) from the `<cmath>` library.
+Each function takes the required parameters for the specific shape and returns the calculated volume.
+
+### Sample Input and Output
+#### Sample Input:
+```
+Enter the side length of the cube: 5
+Enter the radius of the cylinder: 2
+Enter the height of the cylinder: 4
+Enter the width of the cuboid: 3
+Enter the length of the cuboid: 4
+Enter the height of the cuboid: 5
+```
+
+#### Sample Output:
+```
+Volume of the cube: 125
+Volume of the cylinder: 50.2655
+Volume of the cuboid: 60
+```
+
+## Exercise 6: Array Element Addition
+
+### Description
+This C++ program demonstrates the use of a template function called `add` to add elements of one array to the elements of another. The `add` function is designed to work with arrays of various types and sizes, as long as the two arrays have the same data type and size.
+
+
+### Sample Input and Output
+#### Sample Input:
+No user input is required for this program. Sample values are provided for `arr1` and `arr2`.
+
+#### Sample Output:
+```
+11 22 33 44 55
+```
+
+In this output, the elements of `arr1` have been modified by adding the corresponding elements from `arr2`. The modified `arr1` is printed to the console.
+
+## Exercise 7: Array Sorting
+
+### Description
+This C++ program demonstrates the use of a template function called `sort` to sort elements of arrays in ascending order. The `sort` function can be used with arrays of various data types, including `int`, `double`, `float`, `long`, and `char`. It employs the Bubble Sort algorithm to arrange the elements in ascending order.
+
+The `sort` function takes an array of type `T` and its size as parameters. It sorts the elements of the array in ascending order.
+
+### Sample Input and Output
+#### Sample Output:
+```
+Sorted int array: 1 2 5 5 9
+Sorted double array: 0.5 1 2.71 3.14
+Sorted char array: a b c z
+```
+
+In this output, the elements of the arrays have been sorted in ascending order using the `sort` function for different data types.
+
+## Exercise 8: Geometric Shape Area Calculator
+
+### Description
+This C++ program demonstrates the use of namespaces to organize functions for calculating the areas of different geometric shapes, specifically rectangles and triangles. The program creates two separate namespaces: one for rectangles and one for triangles. Each namespace contains a function named `calculateArea` for computing the area of the respective geometric shape based on the namespace used to call the function.
+The program defines two separate namespaces: `Rectangle` and `Triangle`. Each namespace contains a `calculateArea` function for computing the area of the corresponding shape.
+
+### Sample Input and Output
+#### Sample Output:
+```
+Area of Rectangle: 12
+Area of Triangle: 15
+```
+
+In this output, the program uses the appropriate namespace to calculate and display the areas of a rectangle and a triangle.
+Here's a README.md section for the modified code:
+
+## Exercise 9: Nested Namespace for Shape Areas
+
+### Description
+This C++ program demonstrates the use of nested namespaces to organize functions for calculating the areas of different geometric shapes. Specifically, the program creates two nested namespaces: `shape::Rectangle` and `shape::Triangle`. These namespaces contain functions for calculating the area of a rectangle and a triangle, respectively.
+
+### Sample Input and Output
+#### Sample Output:
+```
+Area of Rectangle: 12
+Area of Triangle: 15
+```
+
+In this output, the program uses the functions from the nested namespaces to calculate and display the areas of a rectangle and a triangle.
