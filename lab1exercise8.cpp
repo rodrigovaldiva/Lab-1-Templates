@@ -1,4 +1,4 @@
-/*7B: Modify code from exercise 7a to create nested namespaces for each 
+/* Modify code from exercise 7 to create nested namespaces for each 
 shape inside a parent namespace called shape. Calculate area of 
 rectangle and triangle via nested namespace to verify results.*/
 
