@@ -1,4 +1,4 @@
-/*7A: Create two namespaces for two different geometrical shapes 
+/* Create two namespaces for two different geometrical shapes 
 Rectangle and Triangle. Create function named calculateArea() to 
 calculate area of respective geometrical shape based on the 
 namespace used to call the function.*/
