@@ -1,4 +1,4 @@
-/*3C: Write a recursive function to check if a number is a prime 
+/*Write a recursive function to check if a number is a prime 
 number or not. A prime number is an integer that has no integral 
 factor but itself and 1.*/
 
