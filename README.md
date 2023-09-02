@@ -62,3 +62,42 @@ Enter a non-negative integer: 5
 ```
 Factorial of 5 is 120
 ```
+
+## Exercise 3: Prime Number Checker
+
+### Description
+This C++ program checks whether a given positive integer is a prime number or not. A prime number is defined as an integer that has no integral factors other than 1 and itself.
+
+The program uses a recursive function to check for primality by attempting to divide the number by all positive integers less than itself. If the number is divisible by any integer other than 1 and itself, it is not prime.
+
+
+### Sample Input and Output
+#### Sample Input:
+```
+Enter a positive integer: 17
+```
+
+#### Sample Output:
+```
+17 is a prime number.
+```
+
+#### Sample Input:
+```
+Enter a positive integer: 6
+```
+
+#### Sample Output:
+```
+6 is not a prime number.
+```
+
+#### Sample Input:
+```
+Enter a positive integer: 1
+```
+
+#### Sample Output:
+```
+Prime numbers are defined for positive integers only.
+```
