@@ -8,7 +8,6 @@ a cube, volume of a cylinder and volume of a cuboid
 */
 
 #include <iostream>
-#include <cmath> // For the value of pi
 
 const double PI = 3.141592653589793;
 
