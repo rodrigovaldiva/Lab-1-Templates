@@ -94,7 +94,7 @@ Enter a positive integer: 6
 
 #### Sample Input:
 ```
-Enter a positive integer: 1
+Enter a positive integer: -1
 ```
 
 #### Sample Output:
