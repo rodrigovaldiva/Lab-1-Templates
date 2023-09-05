@@ -15,6 +15,7 @@ template <typename T, size_t N>
 void add(T (&arr1)[N],T (&arr2)[N]) { /*The parameters of the add function should be a reference to an array of type T with size N, and a reference to a constant array of type T with size N.. */
     for (size_t i = 0; i < N; ++i) {
         arr1[i] += arr2[i];
+        
     }
 }
 
