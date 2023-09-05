@@ -7,7 +7,12 @@ two numbers.*/
 // Inline function to calculate the minimum of two integers
 inline int Min(int a, int b) {
     // It takes two integers as input parameters (a and b) and returns the minimum of the two using the conditional (ternary) operator ? :.
-    
+    if(a<b){
+        return a;
+    }
+    else{
+        return b;
+    }
 }
 
 int main() {
@@ -19,7 +24,7 @@ int main() {
     std::cout << "Enter the second number: ";
     std::cin >> num2;
 
-    int minimum =/*Call the Min function with the first and second number*/;
+    int minimum =Min(num1,num2)/*Call the Min function with the first and second number*/;
 
     std::cout << "The minimum between " << num1 << " and " << num2 << " is " << minimum << std::endl;
 
