@@ -7,13 +7,12 @@ This template function allows you to add elements of arrays of various
 
  #include <iostream>
 
-
 //  Declares a template function with two template parameters:
 //      - typename T: This parameter represents a placeholder for a data type. The add function can work with arrays of any data type T.
 //      - size_t N: This parameter represents the size of the arrays. It specifies that the arrays arr1 and arr2 must have the same size N.
 
-void add(/*The parameters of the add function should be a reference to an array of type T with size N, and
- a reference to a constant array of type T with size N.. */) {
+template <typename T, size_t N>
+void add(T (&arr1)[N],T (&arr2)[N]) { /*The parameters of the add function should be a reference to an array of type T with size N, and a reference to a constant array of type T with size N.. */
     for (size_t i = 0; i < N; ++i) {
         arr1[i] += arr2[i];
     }
@@ -25,7 +24,6 @@ int main() {
     
     // Call the add function to add elements of arr2 to arr1
     add(arr1, arr2);
-
     // Print the modified arr1
     for (size_t i = 0; i < sizeof(arr1) / sizeof(arr1[0]); ++i) {
         std::cout << arr1[i] << " ";
